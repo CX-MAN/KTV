@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6D8643C4-1AED-28F9-F9D7-86493F8707AD}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\werec\WeRecAndroidCameraAttachment.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRecAndroidPostRender.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRecAndroidPreRender.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRecHelper.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRecRecordListener.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRecSupportListener.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRec_Android.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRec_Android_Bind.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRec_Android_Customize.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRec_Android_Gui.cs" />
+     <Compile Include="Assets\Plugins\werec\WeRec_Android_Recorder.cs" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\miui_button_selector.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\crop_selector.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout\float_window_left_big.xml" />
+     <None Include="Assets\Resources\TextFolder\TextConfig.txt" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout-land\video_crop.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values\strings.xml" />
+     <None Include="Assets\Resources\TextFolder\Surname.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout-port\video_crop.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values\styles.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout-port\video_play.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\tv_button_selector.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\tv_big_button_selector.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\tuoluo_back_selector.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\anim\in.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout\float_window_record.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\record_button_selector.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout\float_window_big.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values\ymtx_strings.xml" />
+     <None Include="Assets\Resourceslizi\Shader\Particle Add Ground.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout-land\video_play.xml" />
+     <None Include="Assets\Plugins\Android\Androidmanifest.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\AndroidManifest.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values-zh-rCN\ymtx_strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\TextFolder\filterWords.txt" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values\ymtx_styles.xml" />
+     <None Include="Assets\Resourceslizi\Shader\rimlight.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\anim_recording.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout\dialog_miui.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\bg_seek_bar.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values\werec_color.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout\float_window_small.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values-w820dp\dimens.xml" />
+     <None Include="Assets\Resources\TextFolder\NickName.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\drawable\tuoluo_button_selector.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\layout\activity_main.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\proguard-project.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Plugins\Android\libWeRecPlugin\res\values-v11\styles.xml" />
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>E:/TKD/Assets/Plugins/Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>E:/TKD/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="SimpleJson">
+ <HintPath>E:/TKD/Assets/Plugins/SimpleJson.dll</HintPath>
+ </Reference>
+ <Reference Include="TDGAAnalytics">
+ <HintPath>E:/TKD/Assets/Plugins/TDGAAnalytics.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

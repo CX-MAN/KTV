@@ -1,0 +1,14 @@
+F:\TKD\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+F:\TKD\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+F:\TKD\Temp\bin\Debug\Ionic.Zip.Reduced.dll
+F:\TKD\Temp\bin\Debug\SimpleJson.dll
+F:\TKD\Temp\bin\Debug\TDGAAnalytics.dll
+F:\TKD\Temp\bin\Debug\UnityEditor.dll
+F:\TKD\Temp\bin\Debug\UnityEngine.dll
+F:\TKD\Temp\bin\Debug\Mono.Cecil.dll
+F:\TKD\Temp\bin\Debug\nunit.framework.dll
+F:\TKD\Temp\bin\Debug\Unity.DataContract.dll
+F:\TKD\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+F:\TKD\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+F:\TKD\obj\Debug\Assembly-CSharp-firstpass.dll
+F:\TKD\obj\Debug\Assembly-CSharp-firstpass.pdb
